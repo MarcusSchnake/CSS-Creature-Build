@@ -1,0 +1,102 @@
+.wrapper {
+    margin: 10px;
+  }
+
+  .head {
+    background-color: rgb(0, 255, 64);
+    width: 20px;
+    border: 5px solid rgb(255, 0, 242);
+    padding: 50px;
+    margin: 20px;
+    position:absolute;  
+    width: 200px;
+    height: 200px;
+    border: solid 10px black;
+    border-radius: 80px;
+    
+    border-block-start-width: 200;
+    left: 40%;
+  }
+
+  .right-eye {
+    width: 30px;
+    height: 30px;
+    border:solid 3px black;
+    border-radius: 25px;
+    z-index: 1;
+    position: relative;
+    left: 145px;
+    top: 50px;
+    background-color: rgb(255, 0, 0);
+              
+  }
+  
+  .left-eye {
+    width: 30px;
+    height: 30px;
+    border:solid 3px black;
+    border-radius: 25px;
+    z-index: 10;
+    position: relative;
+    left: 32px;
+    top: 17px;
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .nose {
+      width: 10px;
+      height: 50px;
+      border: solid 10px rgb(255, 0, 0);
+      border-bottom-right-radius:40%;
+      border-bottom-left-radius: 40%;
+      position: relative;
+      left:90px;
+      top:15px;
+      background-color: rgb(46, 179, 41);
+      
+
+  }
+
+  .mouth {
+      position:absolute;
+      background-color: black;
+      width: 100px;
+      height:50px;
+      left: 100px;
+      top: 230px;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+
+
+  }
+  
+  .ltooth {
+      position: absolute;
+      background-color: white;
+      width: 10px;
+      height: 15px;
+      left: 150px;
+      top: 230px;
+
+  }
+
+  .btooth {
+      position: absolute;
+      background-color: white;
+      width: 10px;
+      height: 15px;
+      left: 138px;
+      top: 263px;
+  }
+  
+  .third-eye {
+    width: 40px;
+    height: 40px;
+    border: solid 10px black;
+    border-radius: 50px;
+    position: absolute;
+    left: 128px;
+    top: 40px;
+    background-color: red;
+
+  }
